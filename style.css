@@ -1,0 +1,42 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Special Elite', cursive;
+    background: url(bgimage.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(199, 145, 118);
+
+}
+.buffer {
+    height: 2rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: rgb(240, 232, 211,);
+}
+.btn-secondary {
+    background-color: rgb(14, 53, 6);
+    border-color: rgb(14, 53, 6);
+
+}
+
+.btn-secondary:hover {
+    background-color: rgba(14, 53, 6, 0.6);
+    border-color: rgba(14, 53, 6, 0.6);
+    border-width: 3px;
+}
+.btn-xl{
+    padding: 1rem 2rem;
+
+}
